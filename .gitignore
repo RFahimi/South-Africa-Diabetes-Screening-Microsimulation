@@ -1,0 +1,40 @@
+# Never commit study data or generated analysis outputs.
+# .gitignore is preventive only; always inspect staged files before committing.
+
+# Explicit study inputs
+/df_t2dm.csv
+/ml_predictions_sa_fixed.csv
+/fft_predictions_sa.csv
+
+# All local tabular/serialized data and potentially sensitive files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.parquet
+*.feather
+*.rds
+*.RData
+*.rda
+*.rdb
+*.sqlite
+*.db
+*.jsonl
+
+# Analysis outputs and exported graphics
+/output/
+/Figure 1_corrected.*
+
+# R/IDE and OS temporary files
+.Rhistory
+.RDataTmp
+.Rproj.user/
+.Renviron
+.Rprofile
+*.Rproj
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
