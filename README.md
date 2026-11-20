@@ -4,7 +4,7 @@ R analysis code for a **20-year, individual-level health-economic microsimulatio
 
 ## Research context
 
-This code accompanies a manuscript titled *Cost-effectiveness of fast-and-frugal tree-based and machine learning-based strategies for type 2 diabetes screening in South Africa: an individual-level microsimulation*, led by Reza Fahimi at Warwick Medical School, University of Warwick. **Manuscript status: under peer review (as of November 2026).** No journal acceptance or DOI is claimed.
+This code accompanies a manuscript titled *Cost-effectiveness of fast-and-frugal tree-based and machine learning-based strategies for type 2 diabetes screening in South Africa: an individual-level microsimulation*, led by Reza Fahimi at Warwick Medical School, University of Warwick. **Manuscript status: accepted for publication in Frontiers in Clinical Diabetes and Healthcare (November 2026).** Final publication details pending.
 
 The script implements a four-state (no diabetes; undiagnosed diabetes; diagnosed diabetes; death), annual-cycle stochastic microsimulation. It compares a no-active-screening baseline with machine-learning targeting and three fast-and-frugal-tree (FFT) strategies. It estimates per-person costs and quality-adjusted life years (QALYs), incremental cost-effectiveness ratios (ICERs), the cost-effectiveness frontier, deterministic sensitivity analyses, probabilistic sensitivity analyses (1,000 parameter draws), cost-effectiveness acceptability analyses, and expected value of perfect information (EVPI). It also implements common random numbers across strategies to reduce Monte Carlo noise.
 
